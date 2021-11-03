@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body >
+<div class="container vh-100">
+    <!-- ##################### Header  ######################### -->
+    <div class="header ">
+        <h1 class="text-center p-4 text-black-50 m-4">Covid Update</h1>
+    </div>
+    <!-- ##################### STATs ##############################-->
+    <h1 class="alert-success text-center p-4 mb-4">WorldWide Stats</h1>
+    <div class="data d-flex justify-content-md-between justify-content-center  flex-wrap gap-4">
+        
+        
+        <!-- #################### CONFIRMED CASES ##########################-->
+        <div class="confirmed">
+            <div class="card border-info border-3 " style="width: 18rem;height: 10rem;">
+                <div class="card-body">
+                    <h5 class="card-title text-center alert-info rounded-3 p-2">Confirmed Cases</h5>
+                    <p class="card-body display-6 fw-bolder text-info">257782310</p>
+                </div>
+            </div>
+        </div>
+        <!-- #################### RECOVERED CASES ##########################-->
+    
+        <div class="recovered">
+            <div class="card border-3 border-success" style="width: 12rem;height: 10rem;width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title text-center alert-success rounded-3 p-2">Recovered Cases</h5>
+                    <p class="card-body display-6 text-success fw-bolder">226493392</p>
+                </div>
+            </div>
+        </div>
+        <!-- #################### DEATH CASES ##########################-->
+    
+        <div class="death">
+            <div class="card border-3 border-danger" style="width: 18rem;height: 10rem;">
+                <div class="card-body">
+                    <h5 class="card-title text-center alert-danger rounded-3 p-2">Total Deaths</h5>
+                    <p class="card-body display-6 fw-bolder text-danger">5653237</p>
+                </div>
+            </div>
+        </div>
+        <!-- #################### CRITICAL CASES ##########################-->
+    
+        <div class="critical">
+            <div class="card border-3 border-danger" style="width: 18rem;height: 10rem;">
+                <div class="card-body">
+                    <h5 class="card-title text-center alert-danger rounded-3 p-2 ">Critical Cases</h5>
+                    <p class="card-body display-6 fw-bolder text-danger">73874</p>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <h1 class="alert-success mt-4 p-4 text-center"> Local Statistics and Search</h1>
+    <!-- OWN DETAILS and STATS -->
+    <div class="d-flex flex-wrap align-items-start gap-4 justify-content-between my-4">
+       
+        <!-- STATS OF CURRENT COUNTRY -->
+        <div class="location flex-fill d-flex align-items-center justify-content-center p-4  rounded-3 bg-secondary flex-column flex-md-row text-white gap-3">
+            <div >
+                <div class="country text-centertext-md- display-6">
+                    Nepal<sup>NP</sup>
+                </div>
+                <div class="city">
+                    Asia/Kathmandu
+                </div>
+                <div class="img">
+                    <img
+                            src="https://flagcdn.com/w160/np.png">
+                </div>
+            </div>
+            <div class="flex-grow-1 w-100">
+                <p class="p-2 alert-info">Confirmed Cases: <span class="fw-bold">257782310</span> </p>
+                <p class="p-2 alert-success">Recovered Cases: <span class="fw-bold">257782310</span></p>
+                <p class="p-2 alert-danger">Deaths: <span class="fw-bold">257782310</span></p>
+                <p class="p-2 alert-danger">Critical: <span class="fw-bold">257782310</span></p>
+            </div>
+        </div>
+        <!-- STATS -->
+        <div class="search flex-fill">
+            <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                </div>
+                <input type="text" class="form-control" placeholder="Search Country...">
+            </div>
+            <div class="">
+                <p class="p-2 alert-info mt-2">Confirmed Cases: <span class="fw-bold">257782310</span> </p>
+                <p class="p-2 alert-success">Recovered Cases: <span class="fw-bold">257782310</span></p>
+                <p class="p-2 alert-danger">Deaths: <span class="fw-bold">257782310</span></p>
+                <p class="p-2 alert-danger">Critical: <span class="fw-bold">257782310</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
